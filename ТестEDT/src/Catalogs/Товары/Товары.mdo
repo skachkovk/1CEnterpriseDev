@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b1429a59-fc49-4211-bb12-709ddd4d48c7">
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="94f0904d-ff3f-4cf9-b7ae-caa34e54acb4">
   <producedTypes>
-    <objectType typeId="88c6222a-25c5-4a68-815c-a4ffac8c2c62" valueTypeId="5f26988a-00aa-4604-9951-659689b5629e"/>
-    <refType typeId="f83e6dc9-661b-4e40-8bd3-e437cb033851" valueTypeId="d380824f-a7a1-4c5b-b02a-f70d2b41249c"/>
-    <selectionType typeId="6d5d786d-f5e3-41b8-b7cd-4bff53ee5fad" valueTypeId="edb5fba7-4934-4375-b66c-0a0718c8bf19"/>
-    <listType typeId="1941891f-672d-47da-aa00-5d2c556396ee" valueTypeId="cbd9c33a-092f-4d4f-9976-f20d934f079c"/>
-    <managerType typeId="b72f4fba-0ca6-432e-86f3-bcbcac5e5064" valueTypeId="12804633-2ac2-4b12-ab7b-dbe2455f94e5"/>
+    <objectType typeId="224d7b30-854c-4e15-9e25-0a139d5fb060" valueTypeId="d6a42c9b-49bf-4306-bb07-e7c4dca5f7eb"/>
+    <refType typeId="0b8e918b-5fbf-4a09-8ca0-7bea4cbd634b" valueTypeId="2d60aca6-9197-428f-9fcd-ca64483b14d6"/>
+    <selectionType typeId="cd1f878f-6133-4798-aa08-a694fc9c9b7f" valueTypeId="f63a349f-9fbb-4411-a40d-3ebff32e8426"/>
+    <listType typeId="0620bc23-0d3b-47f1-b6f2-1700594b7ac9" valueTypeId="6db0e872-7eb1-489e-a7d8-4782b3583edb"/>
+    <managerType typeId="fb700f57-7ae0-4614-a004-3c704fac757a" valueTypeId="3554b7d2-00a4-4980-84f8-0abb9bbbde00"/>
   </producedTypes>
   <name>Товары</name>
   <synonym>
@@ -30,8 +30,8 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <defaultListForm>Catalog.Товары.Form.ФормаСписка</defaultListForm>
-  <attributes uuid="7dc9c42d-1e59-4cec-8f55-ab23f5936280">
+  <defaultObjectForm>Catalog.Товары.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="19fe5943-78a6-4b45-8ebe-9a19a28aba4b">
     <name>Артикул</name>
     <synonym>
       <key>ru</key>
@@ -46,11 +46,11 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <forms uuid="eb82124e-063f-4779-aadc-228665ef3f15">
-    <name>ФормаСписка</name>
+  <forms uuid="bda96072-31ca-4be6-a7df-fae14b2a209e">
+    <name>ФормаЭлемента</name>
     <synonym>
       <key>ru</key>
-      <value>Форма списка</value>
+      <value>Форма элемента</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
